@@ -16,3 +16,15 @@ run
 ```
 docker run -v /<absolute_path>/go-samples:/go-samples -p 8080:8080-it golang /bin/bash
 ```
+
+git add, commit, push
+
+we provide a bash script to display binary files.
+```
+bash binary_check.sh
+```
+
+```
+bash binary_check.sh >> .gitignore
+```
+
